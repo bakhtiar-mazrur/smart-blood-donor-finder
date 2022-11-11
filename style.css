@@ -1,0 +1,40 @@
+body {
+  background-image: url("images/blood.jpg");
+  background-repeat: no-repeat;
+}
+.blood {
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 50%;
+}
+.blood-1 {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.about {
+  text-align: center;
+  margin-top: 200px;
+}
+.us {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.learn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.navbar navbar-expand-lg bg-light {
+  background-color: red;
+}
+.card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgba(199, 65, 24, 0.774);
+}
+footer p {
+  text-align: center;
+  font-size: 12px;
+  font-style: oblique;
+}
