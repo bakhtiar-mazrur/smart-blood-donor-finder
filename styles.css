@@ -26,7 +26,7 @@ body {
   margin-bottom: 50px;
 }
 .navbar navbar-expand-lg bg-light {
-  background-color: red;
+  background-color: rgba(218, 22, 22, 0.87);
 }
 .card {
   margin-top: 50px;
@@ -37,4 +37,60 @@ footer p {
   text-align: center;
   font-size: 12px;
   font-style: oblique;
+}
+
+/*about us*/
+h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 30px;
+  color: gray;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.about {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+p {
+  font-size: 20px;
+}
+ul.b {
+  list-style-type: square;
+  font-size: 20px;
+}
+.bio-area {
+  text-align: justify;
+}
+.abt {
+  color: red;
+}
+/*search donor*/
+.flex-container {
+  display: flex;
+}
+.cat-1,
+.cat-2,
+.cat-3 {
+  background-color: aliceblue;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.row {
+  margin: 40px;
+}
+.total {
+  height: 90px;
+  background-color: red;
+  margin-left: 55px;
+  margin-right: 55px;
+  text-align: center;
 }
