@@ -1,0 +1,106 @@
+body {
+  background-image: url("images/login-page.jpg");
+  background-repeat: no-repeat;
+}
+
+.blood {
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 50%;
+}
+.blood-1 {
+  margin-left: 300px;
+  margin-top: 40px;
+}
+.about {
+  text-align: center;
+  margin-top: 200px;
+}
+.us {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+.learn {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 12px;
+  font-style: oblique;
+}
+
+/*about us*/
+h2 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 30px;
+  color: gray;
+}
+.half-width {
+  width: 40%;
+  margin-left: 5%;
+  padding-left: 2%;
+  float: left;
+}
+.about {
+  margin-top: 50px;
+  margin-left: 60px;
+}
+p {
+  font-size: 20px;
+}
+ul.b {
+  list-style-type: square;
+  font-size: 20px;
+}
+.bio-area {
+  text-align: justify;
+}
+.abt {
+  color: red;
+}
+/*search donor*/
+.flex-container {
+  display: flex;
+}
+.cat-1,
+.cat-2,
+.cat-3 {
+  background-color: aliceblue;
+  padding: 10px 30px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.row {
+  margin: 40px;
+}
+.total {
+  height: 90px;
+  background-color: red;
+  margin-left: 55px;
+  margin-right: 55px;
+  text-align: center;
+}
+/* for login-form */
+.divider:after,
+.divider:before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+.h-custom {
+  height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+  .h-custom {
+    height: 100%;
+  }
+}
